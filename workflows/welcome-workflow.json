@@ -1,0 +1,54 @@
+{
+  "name": "Welcome Workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "f6f8c8b0-8c8b-4c8b-8c8b-8c8b8c8b8c8b",
+      "name": "When clicking 'Test workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        820,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "message": "Welcome to your enhanced n8n setup! 🎉\n\nThis is a sample workflow to help you get started.\n\nKey features of this setup:\n- PostgreSQL database for persistence\n- Redis for queue management\n- Worker processes for scaling\n- Automated backups\n- Health monitoring\n- Development mode support\n\nNext steps:\n1. Create your first automation\n2. Set up webhooks\n3. Connect to your favorite services\n4. Schedule regular tasks\n\nHappy automating! 🚀"
+      },
+      "id": "8a8b8c8d-8c8b-4c8b-8c8b-8c8b8c8b8c8b",
+      "name": "Welcome Message",
+      "type": "n8n-nodes-base.sticky",
+      "typeVersion": 1,
+      "position": [
+        1040,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 🎯 Quick Start Guide\n\n### 1. Test this workflow\nClick the \"Test workflow\" button above\n\n### 2. Explore the interface\n- **Workflows**: Create automation workflows\n- **Credentials**: Store API keys and passwords\n- **Executions**: View workflow run history\n- **Settings**: Configure your n8n instance\n\n### 3. Connect services\n- Add nodes from the left panel\n- Configure credentials for external services\n- Set up triggers and actions\n\n### 4. Useful resources\n- [n8n Documentation](https://docs.n8n.io/)\n- [Community Forum](https://community.n8n.io/)\n- [Template Library](https://n8n.io/workflows/)\n\n### 5. This enhanced setup includes:\n- ✅ PostgreSQL database\n- ✅ Redis queue management\n- ✅ Automatic backups\n- ✅ Health monitoring\n- ✅ Development tools\n- ✅ Management scripts"
+      },
+      "id": "9b9c9d9e-9c9b-4c9b-9c9b-9c9b9c9b9c9b",
+      "name": "Quick Start Guide",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        580,
+        180
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "1",
+  "id": "1",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "tags": []
+}
